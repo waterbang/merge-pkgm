@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*",
+    "bfchain/*"
+  ],
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "version": "independent",
+  "exact": true,
+  "command": {
+    "init": {
+      "exact": true
+    }
+  }
+}
